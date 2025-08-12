@@ -1,0 +1,63 @@
+:root{
+    --Orange-color:#FF9422;
+    --CreamYellow-color:#FFF7E5;
+    --DarkGreen-color:#14433d;
+
+
+
+    --size-14: 1.4rem;
+    --size-12: 1.2rem;
+    --size-16: 1.6rem;
+    --size-18: 1.8rem;
+    --size-20: 2rem;
+    --size-22: 2.2rem;
+    --size-24: 2.4rem;
+    --size-26: 2.6rem;
+
+    --w-100: 100%;
+    --w-50: 50%;
+    --w-25: 25%;
+
+
+
+
+    --pa-12: 1.2rem;
+    --pa-14: 1.4rem;
+    --pa-16: 1.6rem;
+    --pa-18: 1.8rem;
+    --pa-20: 2rem;
+    --pa-22: 2.2rem;
+    --pa-24: 2.4rem;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body{
+    
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+
+
+.pad_l_r{
+    padding-left: var(--pa-20);
+    padding-right: var(--pa-20);
+}
+
+
+
+ul{
+    list-style: none;
+}
